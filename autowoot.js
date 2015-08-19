@@ -1,4 +1,4 @@
-API.chatLog("/me Cookie Loaded"); 
+API.chatLog("Cookie Loaded"); 
 API.on(API.ADVANCE, aw); /* autowoot */
 
 
