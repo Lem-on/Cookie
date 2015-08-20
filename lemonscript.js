@@ -22,7 +22,8 @@ function lol(a) {
         if (msg.toLowerCase().indexOf("lemon") > -1) {
             API.sendChat(":lemon:Lemon HYPE:lemon:");
         }
-        if (msg.toLowerCase().indexOf("ahoj") > -1 || msg.toLowerCase().indexOf("čau") > -1 || msg.toLowerCase().indexOf("čus") > -1 ||  ) {
+        if (msg.toLowerCase().indexOf("ahoj") > -1 || msg.toLowerCase().indexOf("čau") > -1 || msg.toLowerCase().indexOf("čus") > -1 ) {
              API.sendChat("Ahoj :yum:");
         }
     }
+}
