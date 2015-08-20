@@ -25,5 +25,8 @@ function lol(a) {
         if (msg.toLowerCase().indexOf("ahoj") > -1 || msg.toLowerCase().indexOf("čau") > -1 || msg.toLowerCase().indexOf("čus") > -1 ) {
              API.sendChat("Ahoj :yum:");
         }
+        if (msg.toLowerCase().indexOf("infopravidla") > -1) {
+             API.sendChat("/me Nespamovat | Nedělat reklamy | Nežádat o funkci | Chovat se a psát slušně | Nevhodná hudba/video = skip | Příliš mehů = skip | Max. délka 10 min.");
+        }
     }
 }
