@@ -13,5 +13,4 @@ function aw(){
 function lol(a){ var me = API.getUser().id; var msg = a.message; var from = a.uid; if(me != from){ if(msg.toLowerCase().indexOf("lemon") > -1){ API.sendChat(":lemon:Lemon HYPE:lemon:"); } } }
 
 /* ahoj*/
-
 function lol(a){ var me = API.getUser().id; var msg = a.message; var from = a.uid; if(me != from){ if(msg.toLowerCase().indexOf("ahoj") < 0 &&  if(msg.toLowerCase().indexOf("čau")  > -1){ API.sendChat("Ahoj :yum:") < 0); } } }
