@@ -26,7 +26,7 @@ function lol(a) {
              API.sendChat("Ahoj :yum:");
         }
         if (msg.toLowerCase().indexOf("infopravidla") > -1) {
-             API.sendChat("/me Nespamovat | Nedělat reklamy | Nežádat o funkci | Chovat se a psát slušně | Nevhodná hudba/video = skip | Příliš mehů = skip | Max. délka 10 min.");
+             API.sendChat("Nespamovat | Nedělat reklamy | Nežádat o funkci | Chovat se a psát slušně | Nevhodná hudba/video = skip | Příliš mehů = skip | Max. délka 10 min.");
         }
     }
 }
