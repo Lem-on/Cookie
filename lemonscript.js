@@ -1,6 +1,6 @@
 
 
-API.chatLog(":ballot_box_with_check: Cookie:tm: Loaded v1.2.1");
+API.chatLog(":ballot_box_with_check: Cookie:tm: Loaded v1.2.2");
 API.on(API.ADVANCE, aw); /* autowoot */
 API.on(API.CHAT, lol); /* lemon */
  
@@ -22,7 +22,7 @@ function lol(a) {
         if (msg.toLowerCase().indexOf("lemon") > -1) {
             API.sendChat(":lemon:Lemon HYPE:lemon:");
         }
-        if (msg.toLowerCase().indexOf("/me Cook ahoj") > -1 || msg.toLowerCase().indexOf("/me Cook čau") > -1 || msg.toLowerCase().indexOf("/me Cook čus") > -1 ) {
+        if (msg.toLowerCase().indexOf("@Cook‏ie ahoj") > -1 || msg.toLowerCase().indexOf("@Cook‏ie čau") > -1 || msg.toLowerCase().indexOf("@Cook‏ie čus") > -1 ) {
              API.sendChat("Ahoj :yum:");
         }
     }
