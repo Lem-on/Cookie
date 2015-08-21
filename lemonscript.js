@@ -1,6 +1,6 @@
 
 
-API.chatLog(":ballot_box_with_check: Cookie Loaded v1.2.2");
+API.chatLog(":ballot_box_with_check: Cookie Loaded v1.2.3");
 API.on(API.ADVANCE, aw); /* autowoot */
 API.on(API.CHAT, lol); /* lemon */
  
@@ -27,6 +27,15 @@ function lol(a) {
         }
         if (msg.toLowerCase().indexOf("proč?") > -1 || msg.toLowerCase().indexOf("proč") > -1 || msg.toLowerCase().indexOf("A proč?") > -1 ) {
              API.sendChat("Protože.. PROTO!");
+        }
+        if (msg.toLowerCase().indexOf("mám tě rád") > -1 || msg.toLowerCase().indexOf("miluji tě") > -1 || msg.toLowerCase().indexOf("nesnáším tě") > -1 ) {
+             API.sendChat("Já tebe taky :heart_decoration:");
+        }
+        if (msg.toLowerCase().indexOf("si holka") > -1 || msg.toLowerCase().indexOf("dáme sex") > -1 || msg.toLowerCase().indexOf("si bot") > -1 ) {
+             API.sendChat("To je ve hvězdách");
+        }
+            if (msg.toLowerCase().indexOf("cookie :D") > -1) {
+            API.sendChat("Nesměj se mi :(");
         }
     }
 }
