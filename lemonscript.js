@@ -25,5 +25,8 @@ function lol(a) {
         if (msg.toLowerCase().indexOf("cookie ahoj") > -1 || msg.toLowerCase().indexOf("cookie čau") > -1 || msg.toLowerCase().indexOf("cookie čus") > -1 ) {
              API.sendChat("Ahoj :yum:");
         }
+        if (msg.toLowerCase().indexOf("cookie proč?") > -1) || msg.toLowerCase().indexOf("proč") > -1 {
+            API.sendChat("Protože.. proto!");
+        }
     }
 }
