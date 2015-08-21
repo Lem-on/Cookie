@@ -22,7 +22,7 @@ function lol(a) {
         if (msg.toLowerCase().indexOf("lemon") > -1) {
             API.sendChat(":lemon:Lemon HYPE:lemon:");
         }
-        if (msg.toLowerCase().indexOf("@Cook‏ie ahoj") > -1 || msg.toLowerCase().indexOf("@Cook‏ie čau") > -1 || msg.toLowerCase().indexOf("@Cook‏ie čus") > -1 ) {
+        if (msg.toLowerCase().indexOf("Cookie ahoj") > -1 || msg.toLowerCase().indexOf("Cookie čau") > -1 || msg.toLowerCase().indexOf("Cookie čus") > -1 ) {
              API.sendChat("Ahoj :yum:");
         }
     }
