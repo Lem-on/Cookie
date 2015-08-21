@@ -1,6 +1,6 @@
 
 
-API.chatLog(":ballot_box_with_check: Cookie:tm: Loaded v1.2.2");
+API.chatLog(":ballot_box_with_check: Cookie Loaded v1.2.2");
 API.on(API.ADVANCE, aw); /* autowoot */
 API.on(API.CHAT, lol); /* lemon */
  
