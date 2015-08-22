@@ -1,5 +1,3 @@
-
-
 API.chatLog(":ballot_box_with_check: Cookie Loaded v1.2.3");
 API.on(API.ADVANCE, aw); /* autowoot */
 API.on(API.CHAT, lol); /* lemon */
